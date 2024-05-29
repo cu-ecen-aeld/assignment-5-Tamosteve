@@ -1,1 +1,1 @@
-make make -C buildroot distclean
+make -C buildroot distclean
