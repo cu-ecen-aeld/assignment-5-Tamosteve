@@ -3,7 +3,7 @@
 #Author: Siddhant Jajoo
 
 source shared.sh
-
+./clean.sh
 EXTERNAL_REL_BUILDROOT=../base_external
 git submodule init
 git submodule sync
