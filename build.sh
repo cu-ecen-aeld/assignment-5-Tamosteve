@@ -9,6 +9,9 @@ git submodule init
 git submodule sync
 git submodule update
 
+sudo apt-get update
+sudo apt-get install cpio
+
 set -e 
 cd `dirname $0`
 
