@@ -4,6 +4,7 @@
 
 source shared.sh
 ./clean.sh
+./save-config.sh
 EXTERNAL_REL_BUILDROOT=../base_external
 git submodule init
 git submodule sync
