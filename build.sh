@@ -3,15 +3,10 @@
 #Author: Siddhant Jajoo
 
 source shared.sh
-./clean.sh
-./save-config.sh
 EXTERNAL_REL_BUILDROOT=../base_external
 git submodule init
 git submodule sync
 git submodule update
-
-sudo apt-get update
-sudo apt-get install cpio
 
 set -e 
 cd `dirname $0`
